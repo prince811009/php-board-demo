@@ -1,0 +1,103 @@
+.nav {
+    position: fixed;
+    background: lightcoral;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    z-index: 1;
+}
+.nav__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.nav__item + .nav__item {
+    margin-left: 30px;
+}
+.nav__item a {
+    text-decoration: none;
+    color: white;
+}
+.container {
+    margin-top: 51px;
+    padding: 20px;
+}
+.form  {
+    box-sizing: border-box;
+    width: 800px;
+    display: inline-block;
+    background: rgb(178, 184, 189);
+    padding: 40px 20px;
+}
+.form-wrapper {
+    text-align: center;  
+}
+.form__row {
+    padding: 20px 0;
+}
+.comments {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.comment {
+    margin-bottom: 12px;
+    background: pink;
+    padding: 16px;
+    position: relative;
+}
+.comment__content {
+    margin: 20px 0;
+}
+
+.sub-comments {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.sub-comment {
+    margin-bottom: 12px;
+    background: white;
+    padding: 16px;
+    position: relative;
+}
+.add-sub-comment {
+    margin-bottom: 12px;
+    background: white;
+    padding: 20px;
+}
+.sub-comment__content {
+    margin: 20px 0;
+}
+.delete-comment {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.delete-comment input[type=submit] .edit-comment input[type=submit] {
+    width: 100px;
+    font-size: 25px;
+}
+.btn {
+    width: 50px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+.edit-comment {
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+.page {
+    text-align: center;
+    margin-top: 20px;
+}
+.page a {
+    margin-left: 10px;
+}
